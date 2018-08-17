@@ -39,4 +39,35 @@ var veggies = ['Cucuber', 'Broccoli', 'Spinach', 'Squash']
 for (let index = 0; index < veggies.length; index++) {
     console.log(veggies[index])
     
-}
+};
+
+var GA01 = {
+    name: 'Milfeulle Sakuraba',
+    age: 21,
+};
+var GA02 = {
+    name: 'Ranpha Franboise',
+    age: 22,
+};
+var GA03 = {
+    name: 'Mint Blancmanche',
+    age: 20,
+};
+var GA04 = {
+    name: 'Forte Stollen',
+    age: 26,
+};
+var GA05 = {
+    name: 'Vanilla H',
+    age: 17,
+};
+var GA06 = {
+    name: 'Chitose Karasuma',
+    age: 21,
+};
+var GA = [GA01, GA02, GA03, GA04, GA05, GA06];
+
+for (let i in GA) {
+    checkAge(GA[i].name, GA[i].age)
+};
+console.log(GA)
