@@ -71,3 +71,18 @@ for (let i in GA) {
     checkAge(GA[i].name, GA[i].age)
 };
 console.log(GA)
+// christ in heaven that was rough
+
+function getLength(any) {
+    return any.length,
+    console.log(any),
+    console.log(any.length)
+
+}
+var length = getLength('Hello World')
+
+if (length % 2 == 0 ) {
+    console.log('The world is nice and even!')
+} else {
+    console.log('The world is an odd place!')
+}
